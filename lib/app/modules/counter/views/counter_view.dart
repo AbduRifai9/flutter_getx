@@ -31,7 +31,7 @@ class CounterView extends GetView<CounterController> {
               onPressed: () {
                 controller.kurangSatu();
               },
-              child: Icon(Icons.minimize),
+              child: Icon(Icons.remove),
             ),
             ElevatedButton(
               onPressed: () {
